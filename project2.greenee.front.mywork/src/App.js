@@ -18,9 +18,10 @@ function App() {
         <Route path="/MemoPage" element={<MemoPage />} />
         <Route path="/MapPage" element={<MapPage />} />
       </Routes>
-
+<br></br>
  
-
+      <Navbar></Navbar>
+      <br></br><br></br>
 
 
     </>
