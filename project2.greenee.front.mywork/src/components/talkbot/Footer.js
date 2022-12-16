@@ -1,8 +1,7 @@
 import { Form, Button } from "react-bootstrap";
-import sendImage from "../../../img/send-icon.png";
+import sendImage from "../../img/send-icon.png";
 import React, { useState } from "react";
 import axios from "axios";
-
 import { useSelector } from "react-redux";
 
 //var email = "이멜";
@@ -55,7 +54,7 @@ const openai = new OpenAIApi(configuration);
 /* export */
 function Footer(props) {
   //유저정보끌어오기
-  const email = useSelector((state) => state.session.email); // 리덕스 스토어에 저장되어있는 세션 email 값을 가져옴
+ // const email = useSelector((state) => state.session.email); // 리덕스 스토어에 저장되어있는 세션 email 값을 가져옴
 
   const [inputform, setinputform] = useState("");
   const handleChange = ({ target: { value } }) => setinputform(value);
@@ -81,7 +80,8 @@ function Footer(props) {
       //엑시오스
       //if (axioscount == 0) {
       axios
-        .post("/chatbotPush", { email })
+        //.post("/chatbotPush", { email })
+        .post("/chatbotPush", '세형')
         .then((res) => {
           userinfo.music = res.data.music;
           userinfo.drink = res.data.drink;
@@ -125,7 +125,8 @@ function Footer(props) {
       mode = 2;
 
       axios
-        .post("/chatbotPush", { email })
+        //.post("/chatbotPush", { email: })
+        .post("/chatbotPush", '세형')
         .then((res) => {
           userinfo.music = res.data.music;
           userinfo.drink = res.data.drink;
@@ -162,7 +163,8 @@ function Footer(props) {
       //엑시오스
       //if (axioscount == 0) {
       axios
-        .post("/chatbotPush", { email })
+        //.post("/chatbotPush", { email })
+        .post("/chatbotPush", '세형')
         .then((res) => {
           userinfo.music = res.data.music;
           userinfo.drink = res.data.drink;

@@ -1,13 +1,12 @@
 import React from "react";
 import { Toast, ToastContainer } from "react-bootstrap";
-/* import a2 from "../../../img/greenee.png"; */
-import a1 from "../../../img/a1.jpg";
-import a2 from "../../../img/a2.jpg";
-import a3 from "../../../img/a3.jpg";
-import a4 from "../../../img/a4.jpg";
-import a5 from "../../../img/a5.jpg";
-import a6 from "../../../img/a6.jpg";
-import a7 from "../../../img/a7.jpg"; 
+import a1 from "../../img/a1.jpg";
+import a2 from "../../img/a2.jpg";
+import a3 from "../../img/a3.jpg";
+import a4 from "../../img/a4.jpg";
+import a5 from "../../img/a5.jpg";
+import a6 from "../../img/a6.jpg";
+import a7 from "../../img/a7.jpg"; 
 let avatarArray = [a1,a2,a3,a4,a5,a6,a7]
 let avatar = avatarArray[Math.floor(Math.random() * avatarArray.length)]
 

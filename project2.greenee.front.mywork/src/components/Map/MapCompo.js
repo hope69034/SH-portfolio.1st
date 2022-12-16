@@ -1,7 +1,7 @@
 import React from "react";
 import bb from '../../img2/bb.jpeg'
-import './DoorCss.css'
-const DoorCompo = () => {
+
+const MapCompo = () => {
   return (
    <div>
     <img src={bb} className='cat1' width='700'></img>
@@ -9,4 +9,4 @@ const DoorCompo = () => {
   )
 }
 
-export default DoorCompo;
+export default MapCompo;
