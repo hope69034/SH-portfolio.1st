@@ -1,8 +1,8 @@
 import React from "react";
 import MemoCompo from "../components/MemoCompo";
-import MessageIcon from "@mui/icons-material/Message"
+import MessageIcon from "@mui/icons-material/Message";
 import { Link } from "react-router-dom";
-import greenee2 from "../img/greenee.png";  
+import greenee2 from "../img/greenee.png";
 
 import LabelBottomNavigation from "../components/LabelBottomNavigation";
 

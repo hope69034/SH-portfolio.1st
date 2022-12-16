@@ -5,7 +5,7 @@ const router = express.Router();
 
 /* 세형 */
 
-/* 챗봇으로 성향정보 수정하기 */
+/* 트리형 챗봇으로 DB 성향정보 수정하는 라우터  */
 router.post("/chatbotUpdate", (req, res) => {
   console.log("chatbotUpdate 라우터 진입");
   console.log("wake: " + req.body.wake);
@@ -64,8 +64,7 @@ router.post("/chatbotUpdate", (req, res) => {
   );
 });
 
-
-/* 맵api라우터 */
+/* 출발지와 도착지 두가지 인풋을 받으면 이동거리를 계산하는 `카카오맵api라우터` */
 router.post('/map', function (req, res) {
   console.log('map라우터 진입 성공')
   /* let userInput = req.query.userInput */
@@ -109,10 +108,10 @@ router.post('/map', function (req, res) {
   })
 });
 
-/* 맵api test라우터 */
+/* `카카오맵api라우터` test 페이지 */
 router.get('/maptest', function (req, res) {
   console.log('메인라우터 진입 성공')
-  //일단로컬로
+  //로컬파일 open with live server
   res.redirect("http://127.0.0.1:5500/server/maptest.html")
 });
 
