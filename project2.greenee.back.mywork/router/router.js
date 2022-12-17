@@ -30,33 +30,10 @@ router.post("/chatbotUpdate", (req, res) => {
   let food = req.body.food;
   let drink = req.body.drink;
   let sql = `UPDATE userinfo
-  SET 
-  wake=?,
-  startwork=?,
-  lunch=?,
-  endwork=?,
-  transpo=?, 
-  job=?,
-  hobby=?,
-  music=?,
-  food=?,
-  drink=?
-  WHERE email=?`;
+  SET wake=?, startwork=?, lunch=?, endwork=?, transpo=?, job=?, hobby=?, music=?, food=?, drink=? WHERE email=?`;
   conn.query(
     sql,
-    [
-      wake,
-      startwork,
-      lunch,
-      endwork,
-      transport,
-      job,
-      hobby,
-      music,
-      food,
-      drink,
-      email
-    ],
+    [wake,startwork,lunch,endwork,transport,job,hobby,music,food,drink,email],
     (err, rows) => {
       console.log("컨쿼리진입");
       res.redirect("http://127.0.0.1:3000/"); //main page
