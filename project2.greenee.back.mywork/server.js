@@ -24,8 +24,8 @@ app.get('/', (req, res)=>{
 
 const conn = new mysql_session({
   host:"localhost",
-  user:"root",
-  password:"!ing12924103",
+  user:"cshuser",
+  password:"cshpass",
   port:3306,
   database:"lifeconcierge"
 })
