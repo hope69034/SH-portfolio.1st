@@ -52,17 +52,15 @@ router.post('/map', function (req, res) {
   //const result = spawn("python3", ["map.py"]);
   // const result = spawn("python", ["map.py"]);
 
-  if (userInput1 && userInput2) {
-
   const result = spawn("python", ["map.py", userInput1, userInput2]);
   console.log('파이썬 파일 변수 선언 성공')
   result.stdout.on("data", (result) => {
     console.log('stdout 진입 성공')
     console.log('result : ' + result.toString());
     console.log(`파이썬 파일 변수 선언 성공  |  유저인풋1 : ${userInput1}, 유저인풋2 : ${userInput2}`)
-    /* res.json(result.toString().trim()) */
+      res.json(result.toString().trim())  
      //출발지~도착지 이동예상시간
-    res.json(result.toString().slice(0,(result.toString().length-6)))
+    //res.json(result.toString().slice(0,(result.toString().length-6)))
     //db
 /*     const movetime = result.toString().slice(0,(result.toString().length-6))
     const params = [start, sTime, end, eTime, title, sLocation, eLocation, moveTime,
