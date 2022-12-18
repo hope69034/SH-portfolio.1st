@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import uuid from "react-uuid";
 import MemoCompo from "../components/Memo/MemoCompo";
 import "../components/Memo/MemoCss.css";
+import memo from "../img2/memo.png";
 
 function MemoPage() {
   const [notes, setNotes] = useState(
@@ -50,6 +51,10 @@ function MemoPage() {
 
   return (
     <>
+      <br></br> <br></br>
+      <div>
+        <img src={memo} className="cat1" width="460"></img>
+      </div>
       <div className="App">
         <div className="Readme">
           <br></br>

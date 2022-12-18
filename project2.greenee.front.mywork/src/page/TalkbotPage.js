@@ -72,12 +72,12 @@ function TalkbotPage() {
           <br></br>
         </h5>
       </div>
-
+{/* 
       <Header />
 
       <Main message={message} />
 
-      <Footer setMessage={getMessage} />
+      <Footer setMessage={getMessage} /> */}
     </>
   );
 }

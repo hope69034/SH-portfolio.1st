@@ -1,15 +1,12 @@
-.Readme {
-  margin-left: 20px;
-  margin-rignt: 20px;
-}
 
 /* SIDEBAR   */
 .app-sidebar {
-  width: 100%;
+  width: 500px;
   /*   height: 100vh; */
   border-right: 1px solid #ddd;
   margin-bottom: 230px;
   /*  background: #7e7e7e; */
+  margin-left : 100px;
 }
 
 .app-sidebar-header {
@@ -21,7 +18,35 @@
   padding-right: 15px;
   background: #2ecc71;
   color: #fff;
+  width: 500px;
+  margin-left : 100px;
 }
+
+
+/* Editing */
+.app-main-note-edit {
+  font-family: "MaplestoryOTFBold";
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  width: 500px;
+  background: #ddecc5;
+  border-radius: 5px;
+  margin-left : 100px;
+
+}
+
+
+
+
+
+
+
+.Readme {
+  margin-left: 20px;
+  margin-rignt: 20px;
+}
+
 .app-sidebar-header h1 {
   margin: 0;
   font-family: "MaplestoryOTFBold";
@@ -94,16 +119,7 @@
   color: #999;
 }
 
-/* Editing */
-.app-main-note-edit {
-  font-family: "MaplestoryOTFBold";
-  padding: 5px;
-  position: fixed;
-  bottom: 0px;
-  width: 99.9%;
-  background: #ddecc5;
-  border-radius: 5px;
-}
+
 
 .app-main-note-edit input,
 textarea {

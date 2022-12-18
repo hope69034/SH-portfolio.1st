@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0085cd53.css",
-    "main.js": "/static/js/main.3dab0034.js",
+    "main.css": "/static/css/main.46469817.css",
+    "main.js": "/static/js/main.137b7d91.js",
     "static/js/787.f9cdfb1d.chunk.js": "/static/js/787.f9cdfb1d.chunk.js",
     "static/media/bb.jpeg": "/static/media/bb.9ea8f1ea705842b74128.jpeg",
     "static/media/모드체인지봇.gif": "/static/media/모드체인지봇.f411399948a9e3e66b6c.gif",
@@ -19,13 +19,14 @@
     "static/media/11.png": "/static/media/11.b3c03af75ab13cd39cea.png",
     "static/media/aaa.png": "/static/media/aaa.021ba8f344b5a4607f0b.png",
     "static/media/mapsc.png": "/static/media/mapsc.3fd114784aff285de246.png",
+    "static/media/memo.png": "/static/media/memo.c442a78c9c9b96ea8346.png",
     "index.html": "/index.html",
-    "main.0085cd53.css.map": "/static/css/main.0085cd53.css.map",
-    "main.3dab0034.js.map": "/static/js/main.3dab0034.js.map",
+    "main.46469817.css.map": "/static/css/main.46469817.css.map",
+    "main.137b7d91.js.map": "/static/js/main.137b7d91.js.map",
     "787.f9cdfb1d.chunk.js.map": "/static/js/787.f9cdfb1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0085cd53.css",
-    "static/js/main.3dab0034.js"
+    "static/css/main.46469817.css",
+    "static/js/main.137b7d91.js"
   ]
 }
