@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0085cd53.css",
+    "main.js": "/static/js/main.3dab0034.js",
+    "static/js/787.f9cdfb1d.chunk.js": "/static/js/787.f9cdfb1d.chunk.js",
+    "static/media/bb.jpeg": "/static/media/bb.9ea8f1ea705842b74128.jpeg",
+    "static/media/모드체인지봇.gif": "/static/media/모드체인지봇.f411399948a9e3e66b6c.gif",
+    "static/media/성향봇.gif": "/static/media/성향봇.5bb05be275bbf24d374c.gif",
+    "static/media/챗봇ppt페이지3.png": "/static/media/챗봇ppt페이지3.7c8f8b80250575dd6166.png",
+    "static/media/챗봇ppt페이지4.png": "/static/media/챗봇ppt페이지4.bee643af5e4c83a10653.png",
+    "static/media/a3.jpg": "/static/media/a3.449160580241b9654017.jpg",
+    "static/media/a4.jpg": "/static/media/a4.869e01840ad44f64f383.jpg",
+    "static/media/a1.jpg": "/static/media/a1.6adb543b8a40387da723.jpg",
+    "static/media/a7.jpg": "/static/media/a7.18d1df8c68b0f00ecda6.jpg",
+    "static/media/a5.jpg": "/static/media/a5.765da5ae38ac0f92eea0.jpg",
+    "static/media/a6.jpg": "/static/media/a6.eb0bb863261cc2394cdf.jpg",
+    "static/media/a2.jpg": "/static/media/a2.003c76ddc47414a61832.jpg",
+    "static/media/aab.png": "/static/media/aab.a1dd99af8e94018b7948.png",
+    "static/media/11.png": "/static/media/11.b3c03af75ab13cd39cea.png",
+    "static/media/aaa.png": "/static/media/aaa.021ba8f344b5a4607f0b.png",
+    "static/media/mapsc.png": "/static/media/mapsc.3fd114784aff285de246.png",
+    "index.html": "/index.html",
+    "main.0085cd53.css.map": "/static/css/main.0085cd53.css.map",
+    "main.3dab0034.js.map": "/static/js/main.3dab0034.js.map",
+    "787.f9cdfb1d.chunk.js.map": "/static/js/787.f9cdfb1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0085cd53.css",
+    "static/js/main.3dab0034.js"
+  ]
+}
