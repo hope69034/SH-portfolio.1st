@@ -1,0 +1,29 @@
+8월 16일   [back-end] ai허브 efficientnet train code 클론코딩 학습
+
+8월 19일   [back-end] train 코드 적절한 파라미터 찾기 
+           [back-end] batch size = 1, epochs =2 의 model1~6.pt 6개의 임시 모델 파일 생성 
+			    (test, web 코드 작성을 위한 임시파일)
+           [back-end] 모델1 test 코드 작성
+
+8월 22일   [back-end] 모델1 test, predict 코드 완성
+           [back-end] 모델2~6 test, predict 코드 완성 
+
+8월 23일   [back-end + front-end] flask, HTML 코드 작성
+
+8월 24일   [back-end + front-end] flask, HTML 코드 완성
+
+8월 25일   [back-end] 이미지 업로드 시 이미지를 서버에 save 하고 6개의 모델에서 6개의 predict를 연산하는 시간(load time)을
+                      줄이기 위해 코드를 간략화하고 코드 배치를 조정 : colab cpu mode 에서 load time 은 약 30초, colab gpu mode 에서 load time 은 약 3초
+                      * gpu mode 의 경우 error 발생 가능성이 존재 (gpu를 오래 켜두면 코랩에서 gpu 모드를 차단하는 것으로 추정)
+           [발표] 중간 발표 및 모델 시연
+           [front-end] 임시 HTML 다듬기 : 아이콘 error 디버깅, 버튼 위치 조정, 안내 문구 수정 	
+
+8월 26일   [back-end + front-end] web 코드, 임시 HTML 다듬기 : loading page 작성  
+           				    (cpu mode 에서 load time 30초 동안 화면이 정지 상태인 것을 보완하기 위한 작업) 
+
+8월 29일   [back-end + front-end] web 코드, 임시 HTML 다듬기 : loading page 완성
+                                  (load time 동안 안내 문구와 gif파일을 표시하여 로딩중임을 알리는 페이지)
+
+8월 30일   [back-end] web 코드를 'colab'코드에서 'vs code'코드로 전환하여 cpu mode load time 을 30초에서 20초로 줄임
+
+8월 31일   [back-end] 최종 모델 6개의 test set - acurracy, loss 측정
