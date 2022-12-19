@@ -56,28 +56,16 @@ export default class MainPage extends Component {
   }; */
     };
     return (
-      <div style={{  marginLeft: "20%",marginRight: "20%"}}>
+      <div >
         <h2 style={{ textAlign:'center',color:'#01557d'  }}> Welcome to SHworld</h2>
         
-          <Slider {...settings}>
-          <div>
-            <a target="_blank" href="https://sh-project1st.netlify.app/">
-              {" "}
-              <div>
-                <img src={png1} width="900"></img>
-              </div>
-            </a>
-          </div>
+   
+ &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://velog.io/@shlog'>블로그 : velog</a><br></br>
+&nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://github.com/hope69034'>깃허브 : github</a><br></br>
+&nbsp;&nbsp;&nbsp;이메일 : hope69034@gmail.com <br></br>
 
-          <div>
-            <a target="_blank" href="https://sh-project2nd.netlify.app/">
-              {" "}
-              <div>
-                <img src={png2} width="900"></img>
-              </div>
-            </a>
-          </div>
-        </Slider>
+
+ 
       </div>
     );
   }
