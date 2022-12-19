@@ -15,8 +15,8 @@ const DoorPage = () => {
  &nbsp;&nbsp;&nbsp;프로젝트 인원 : 6명 (광주인공지능사관학교 3기)<br></br>
  &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://velog.io/@shlog/project.nd'>개발일지 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://github.com/hope69034/portfolio.1st/tree/main/project2.greenee.front.mywork'>코드 : github</a><br></br>
-&nbsp;&nbsp;&nbsp;<a target="_blank" href='https://greenee.netlify.app/'>앱 프론트엔드 배포 : greenee </a><br></br>
- 
+&nbsp;&nbsp;&nbsp;<a target="_blank" href='https://greenee.netlify.app/'>앱 프론트엔드 배포 : netlify </a><br></br>
+ <br></br>
     
  <div>
     <img src={bb} className='cat1' width='700'></img>
