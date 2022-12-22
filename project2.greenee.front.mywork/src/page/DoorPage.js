@@ -22,6 +22,66 @@ const DoorPage = () => {
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;
  하지만 기획과는 다르게 알림이 구현되지 못해 발전방향만 장황할 뿐 챗봇의 존재가 무색해진 프로젝트이다.<br></br>
+
+ &nbsp;&nbsp;&nbsp;주요 트러블슈팅 : GPT3모델의 말이 중간에 끊어지지 않고 완전한 문장으로 끝나도록 해야한다.<br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+예를들면 유저가 '안녕'이라고 하면 모델은 '하세요'라고 대답을 하거나 말을 하다가 문장이
+<br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+ 끝나지 않은 상태로 말을 끝내는 경우가 많다.
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+ -> 유저인풋의 앞에는 'Human :' 그리고 뒤에는 'Ai : ' 이런식으로 덫붙여서 모델에 넣는다.
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+ 그러면 '안녕'에 대해 '하세요'처럼 유저의 말을 그대로 이어서 하지도 않고 완전한 문장을 말한다.
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+ 하지만 말을 하다가 '문장 Human : 문장' 까지 가버리는 경우도 있는데
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;
+ -> 이건 stop 파라미터에 Human : 을 넣어서 해결한다. 모델이 Human : 이라고 말할려고 하면 H앞에서 그냥 끝내버리는 것이다.
+ <br></br>
+
+ &nbsp;&nbsp;&nbsp;성과 : 달력라이브러리, ui라이브러리, api를 처음 다뤄보고 css도 많이 만져보았다. 
+프로젝트 전체로 보면 내가 챗봇으로 빠져서 메인기능 구현이 
+
+<br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+ 제대로 안된 것 같아 아쉬움이 남지만 개인적으로는 안해본 걸 하면서 얻은 성과가 크다.
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+ 그냥 재밌을 것 같아서 시작한 챗봇은 프론트, 백, ai 전부 하는 재미가 있었고 
+gpt3를 다룰 수 있게된 것도 큰 성과다. 
+<br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+ 코드 기억 안나서 gpt한테 물어봐서 알아내기도 했다.
+
+ css는 많이해보니까 확실히 내 취향이 아닌 걸 알게되서
+ <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+  진로를 정하는 것에도 성과가 있었다.
+
+<br></br>
+
+
+
  &nbsp;&nbsp;&nbsp;기술 스택 : react, node.js, html, css, GPT3, bootstrap, netlify<br></br>
  &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://velog.io/@shlog/project.nd'>개발일지 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://github.com/hope69034/portfolio.1st/tree/main/project2.greenee.front.mywork'>코드 : github</a><br></br>
