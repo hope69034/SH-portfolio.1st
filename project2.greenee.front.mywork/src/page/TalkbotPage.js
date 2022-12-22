@@ -12,6 +12,10 @@ import 챗pp from  '../img2/aaa.png'
 import 챗p0 from  '../img2/aab.png'
 import 챗p1 from  '../img2/챗봇ppt페이지3.png'
 import 챗p2 from  '../img2/챗봇ppt페이지4.png'
+import icl from  '../img2/icl.png'
+import xxx from  '../img2/xxx.png'
+
+const xxxSt= {marginLeft:'20px'}
 
 function TalkbotPage() {
   const [message, setMessage] = useState([
@@ -49,6 +53,10 @@ function TalkbotPage() {
 
       <br></br>
 
+
+      <img src=  {xxx} width='800px' style={xxxSt} ></img> <br></br><br></br>
+
+
       <div className="Readme">
         <br></br>
         <h3>readme</h3>
@@ -65,7 +73,11 @@ function TalkbotPage() {
           학습데이터 : aihub(상담) github(대화) 
        cmu대학(큐엔에이)<br></br>
           학습방법 : in-context learning<br></br>
-          <img src=  {챗pp} width='1000px' ></img> <br></br><br></br>
+          <img src=  {챗pp} width='800px' ></img> <br></br><br></br>
+          
+          <img src=  {icl} width='800px' ></img> <br></br>
+         
+          <br></br>
           모델평가 SSA<br></br>
           <img src=  {챗p2} width='1000px' ></img> 
           <br></br>
