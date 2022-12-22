@@ -65,7 +65,7 @@ const DoorPage = () => {
  <br></br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
  &nbsp;&nbsp;
- 그냥 재밌을 것 같아서 시작한 챗봇은 프론트, 백, ai 전부 하는 재미가 있었고 
+ 그냥 재밌을 것 같아서 시작한 챗봇은 프론트, 백, ai의 재미를 합친 느낌이고 
 gpt3를 다룰 수 있게된 것도 큰 성과다. 
 <br></br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -76,7 +76,18 @@ gpt3를 다룰 수 있게된 것도 큰 성과다.
  <br></br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
  &nbsp;&nbsp;
-  진로를 정하는 것에도 성과가 있었다.
+  진로를 정하는 것에도 성과가 있었다. 메모장은 그냥 깃클론으로 받아서 입맛대로 쪼금 고친 건데
+  <br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+ 리액트에서 바로 돌릴 수 있는 거 찾으려고 고생은 했지만
+이것 역시도 그냥 안해본 거라도 검색해서 복붙하면 어떻게든 되겠지
+<br></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ &nbsp;&nbsp;
+라는 자만심과 자신감에 더 빠지게 만들었다.
+
+
 
 <br></br>
 
