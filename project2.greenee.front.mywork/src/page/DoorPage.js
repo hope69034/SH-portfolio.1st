@@ -97,6 +97,7 @@ gpt3를 다룰 수 있게된 것도 큰 성과다.
  &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://velog.io/@shlog/project.nd'>개발일지 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://github.com/hope69034/portfolio.1st/tree/main/project2.greenee.front.mywork'>코드 : github</a><br></br>
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://greenee.netlify.app/'>앱 프론트엔드 배포 : netlify </a><br></br>
+&nbsp;&nbsp;&nbsp;수상 : 인기상<br></br>
  <br></br>
     
  <div>
