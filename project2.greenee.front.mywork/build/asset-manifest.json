@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67084be7.css",
-    "main.js": "/static/js/main.b069ea58.js",
+    "main.js": "/static/js/main.e86393e4.js",
     "static/js/787.f9cdfb1d.chunk.js": "/static/js/787.f9cdfb1d.chunk.js",
     "static/media/bb.jpeg": "/static/media/bb.9ea8f1ea705842b74128.jpeg",
     "static/media/모드체인지봇.gif": "/static/media/모드체인지봇.f411399948a9e3e66b6c.gif",
@@ -20,17 +20,18 @@
     "static/media/aaa.png": "/static/media/aaa.021ba8f344b5a4607f0b.png",
     "static/media/t2.png": "/static/media/t2.5e0f87f3e97ea0387c81.png",
     "static/media/t1.png": "/static/media/t1.68e6adfec0acdbcf26ea.png",
+    "static/media/pp.png": "/static/media/pp.a23c4e34e224836ee96a.png",
     "static/media/icl.png": "/static/media/icl.a40dd0f18f2cdee4a892.png",
     "static/media/mapsc.png": "/static/media/mapsc.3fd114784aff285de246.png",
     "static/media/xxx.png": "/static/media/xxx.12e4b31383e3cb7c8b84.png",
     "static/media/memo.png": "/static/media/memo.c442a78c9c9b96ea8346.png",
     "index.html": "/index.html",
     "main.67084be7.css.map": "/static/css/main.67084be7.css.map",
-    "main.b069ea58.js.map": "/static/js/main.b069ea58.js.map",
+    "main.e86393e4.js.map": "/static/js/main.e86393e4.js.map",
     "787.f9cdfb1d.chunk.js.map": "/static/js/787.f9cdfb1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67084be7.css",
-    "static/js/main.b069ea58.js"
+    "static/js/main.e86393e4.js"
   ]
 }

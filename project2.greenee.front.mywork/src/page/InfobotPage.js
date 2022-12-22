@@ -2,6 +2,7 @@ import React from "react";
 import InfobotCompo from "../components/infobot/InfobotCompo";
 import 성향봇 from '../gif/성향봇.gif'
 import pptt from '../img2/11.png'
+import pp from '../img2/pp.png'
 const Infobot = () => {
   return (
     <>
@@ -38,6 +39,14 @@ const Infobot = () => {
           랜덤 센텐스 - 3개의 문장어레이에서  
        Math.random()로 3문장을 뽑아서  
         합하여 말투에 약간의 베리에이션<br></br>
+
+        <br></br>   <div>
+        <img src=  {pp} width='900px' ></img> 
+      
+      </div>  
+    <br></br> 
+        
+
           <br></br>- 라이브러리 - <br></br>
           <br></br>
           ReactSimpleChatbot<br></br>
@@ -46,6 +55,7 @@ const Infobot = () => {
       </div>
 
       <InfobotCompo></InfobotCompo>
+   
     </>
   );
 };
