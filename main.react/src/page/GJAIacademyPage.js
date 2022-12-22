@@ -7,6 +7,8 @@ const GJAIacademyPage = () => {
   <>
   <br></br> 
   &nbsp;&nbsp;&nbsp;교육 기간 : 2022.06.20 ~ 2022.12.14 <br></br>
+  &nbsp;&nbsp;&nbsp;교육 내용 : python, dataScience, ML/DL, JavaScript, node.js, react <br></br>
+
   <br></br>
  
   <div>
