@@ -8,7 +8,7 @@ const Navbar = () => {
     <Link to='/MemoPage' style={{}}> Memo </Link>
     <Link to='/InfobotPage' style={{}}> Infobot </Link>
     <Link to='/TalkbotPage' style={{}}> Talkbot </Link>
-    <Link to='/MapPage' style={{}}> MapApi </Link>
+    <Link to='/MapPage' style={{}}> MapRouter </Link>
   </>
   )
 }
