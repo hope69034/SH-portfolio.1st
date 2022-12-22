@@ -15,13 +15,13 @@ const GJAIacademyPage = () => {
  
   <div>
     <img src={z1}   style={{marginLeft:'20px'}} width='1100'></img>
-    </div>
+    </div>  <br></br>
     <div>
     <img src={z2}   style={{marginLeft:'20px'}} width='1100'></img>
-    </div>
+    </div>  <br></br>
     <div>
     <img src={z3}   style={{marginLeft:'20px'}} width='600'></img>
-    </div>
+    </div>  <br></br>
 
     <div>
     <img src={z4}   style={{marginLeft:'20px'}} width='1100'></img>
