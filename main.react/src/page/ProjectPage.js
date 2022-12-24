@@ -48,7 +48,7 @@ export default class ProjectPage extends Component {
     {
         breakpoint: 480, // (숫자)px 이하일 경우
           settings: {
-            slidesToShow: 1,
+             slidesToShow: 1,
             arrows:true,
       }
     }
