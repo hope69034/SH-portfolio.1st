@@ -64,7 +64,7 @@ export default class ProjectPage extends Component {
             <a target="_blank" href="https://sh-project1st.netlify.app/">
               {" "}
               <div>
-                <img src={png1} width="900"></img>
+                <img src={png1} width="700"></img>
               </div>
             </a>
           </div>
@@ -73,7 +73,7 @@ export default class ProjectPage extends Component {
             <a target="_blank" href="https://sh-project2nd.netlify.app/">
               {" "}
               <div>
-                <img src={png2} width="900"></img>
+                <img src={png2} width="700"></img>
               </div>
             </a>
           </div>
