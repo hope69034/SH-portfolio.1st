@@ -9,8 +9,7 @@ const DoorPage = () => {
   return(
   <>
   <div>
-  <br></br>  <br></br>
- 
+  <br></br>   
  <h1 style={sss} className="ffff" >    제 두번째 프로젝트에서 제가 구현한 것만 올리는 페이지입니다.</h1>
  <br></br>
  &nbsp;&nbsp;&nbsp;프로젝트 제목 : 일정관리 x 챗봇 앱 - AI 비서 '그리니' <br></br>
