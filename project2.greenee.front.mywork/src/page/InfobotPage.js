@@ -50,7 +50,9 @@ const Infobot = () => {
           <br></br>- 라이브러리 - <br></br>
           <br></br>
           ReactSimpleChatbot<br></br>
-          <br></br>
+          <br></br>  <br></br>
+
+         * 사용해 보기
         </h5>
       </div>
 

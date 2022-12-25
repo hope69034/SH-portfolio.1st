@@ -65,6 +65,14 @@ function MemoPage() {
             특징 : 텍스트 입력 즉시 저장 및 수정.
           </h5>
           <br></br>
+
+          <br></br>
+          <h5>
+            * 사용해 보기
+          </h5>
+
+       
+         
         </div>
         <div className="app-sidebar-header">
           <button
