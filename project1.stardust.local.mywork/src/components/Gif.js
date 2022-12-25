@@ -6,7 +6,7 @@ const Gif = () => {
 
 <br></br>  
 &nbsp;&nbsp;&nbsp;
-<h2>&nbsp;&nbsp;&nbsp;백~프론트 전부 혼자 만들어서 시연하는 영상</h2>
+<h2>&nbsp;&nbsp;&nbsp;backend, frontend, server, deploy 전부 혼자 구현해서 시연하는 영상</h2>
  
 <br></br>
 

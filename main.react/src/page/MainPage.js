@@ -59,7 +59,7 @@ export default class MainPage extends Component {
     };
     return (
       <div >
-        <h2 style={{ textAlign:'center',color:'#01557d'  }}>  Hi, I'm <tt style={{ color:'#ff5e00'  ,fontFamily: 'cursive'  }}>S</tt>ehyoung, The Fearless Developer.</h2>
+        <h2 style={{ textAlign:'center',color:'#01557d'  }}>  I'm <tt style={{ color:'#ff5e00'  ,fontFamily: 'cursive'  }}>S</tt>ehyoung, The Fearless Developer.</h2>
       
         <h2 style={{ textAlign:'center',color:'#01557d'  }}>  I like to learn new skills.</h2>
        
