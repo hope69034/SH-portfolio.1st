@@ -3,12 +3,15 @@ import React  from "react";
 import cat1 from '../img2/cat1.png'
 import '../css/DoorCss.css'
 const DoorPage = () => {
+
+
+  const sss = {fontSize:'25px',fontWeight:'900'}
   return(
   <>
   <div>
   <br></br>  <br></br>
  
- <h1 className="ffff">   &nbsp;&nbsp;&nbsp; 제 두번째 프로젝트에서 제가 구현한 것 중 일부를 <br></br>  올리는 페이지입니다.</h1>
+ <h1 style={sss} className="ffff" >    제 두번째 프로젝트에서 제가 구현한 것만 올리는 페이지입니다.</h1>
  <br></br>
  &nbsp;&nbsp;&nbsp;프로젝트 제목 : 일정관리 x 챗봇 앱 - AI 비서 '그리니' <br></br>
  &nbsp;&nbsp;&nbsp;프로젝트 기간 : 2022.11.08 ~ 2022.12.14 <br></br>
@@ -98,7 +101,7 @@ gpt3를 다룰 수 있게된 것도 큰 성과다.
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://github.com/hope69034/portfolio.1st/tree/main/project2.greenee.front.mywork'>코드 : github</a><br></br>
 &nbsp;&nbsp;&nbsp;<a target="_blank" href='https://greenee.netlify.app/'>앱 프론트엔드 배포 : netlify </a><br></br>
 &nbsp;&nbsp;&nbsp;수상 : 인기상<br></br>
- 
+
     
  <div>
     <img src={cat1} className='cat1' width='700'></img>
