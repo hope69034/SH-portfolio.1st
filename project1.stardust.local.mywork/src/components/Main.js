@@ -1,6 +1,12 @@
 import React from "react";
-import prj from '../img/project1.gif'
+import bc1 from '../img/bc1.png'
 const Main = () => {
+
+
+const bc1style ={    width: '400px',
+  margin: 'auto',
+  display: 'block' }
+
   return(
   <>
 
@@ -8,7 +14,7 @@ const Main = () => {
  
  
  <h1 className="ffff">   제 첫번째 프로젝트에서 제가 구현한 것만 올리는 페이지입니다.</h1>
- <br></br> 
+
  &nbsp;&nbsp;&nbsp;프로젝트 제목 : 두피 자가진단 서비스 <br></br>
  &nbsp;&nbsp;&nbsp;프로젝트 기간 : 2022.08.16 ~ 2022.09.01 <br></br>
  &nbsp;&nbsp;&nbsp;프로젝트 인원 : 4명 (광주인공지능사관학교 3기)<br></br>
@@ -64,11 +70,11 @@ const Main = () => {
 <br></br>
 
  <div>
-    <img src={prj} width='1300'></img>
+    <img className="bc1" style={bc1style} src={bc1} width='400px'></img>
     </div>
 
     </div>
-    <br></br>  <br></br><br></br>  <br></br>
+    <br></br>    
   </>
   )
 }
