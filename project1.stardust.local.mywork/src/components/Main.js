@@ -67,7 +67,7 @@ const bc1style ={    width: '400px',
 &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://github.com/hope69034/GJAI-Academy-Main/tree/main/%EA%B4%91%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90%202022.08/JS_B_Stardust_Project'>코드 : github</a><br></br>
 
 <br></br>  
-<br></br>
+ 
 
  <div>
     <img className="bc1" style={bc1style} src={bc1} width='400px'></img>
