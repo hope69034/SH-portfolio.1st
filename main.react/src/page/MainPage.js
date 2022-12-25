@@ -7,6 +7,8 @@ import "./maincss.css";
 
 import png1 from "../img/111.png";
 import png2 from "../img/222.png";
+import babycat from "../img/babycat.png";
+
 
 export default class MainPage extends Component {
   render() {
@@ -61,12 +63,19 @@ export default class MainPage extends Component {
       
         <h2 style={{ textAlign:'center',color:'#01557d'  }}>  I like to learn new skills.</h2>
        
-   
+        &nbsp;&nbsp;&nbsp;Back-End : Python, Node.js, MySQL
+     <br></br>
+        &nbsp;&nbsp;&nbsp;Front-End : HTML, CSS, JavaScript, React
+        <br></br>
+        &nbsp;&nbsp;&nbsp;Etc : Git, Github, Slack, AWS EC2, Netlify
+        <br></br><br></br>
  &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://velog.io/@shlog'>블로그 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://github.com/hope69034'>깃허브 : github</a><br></br>
 &nbsp;&nbsp;&nbsp;이메일 : hope69034@gmail.com <br></br>
-
-
+<br></br>
+<div>
+                <img src={babycat} width="70%"></img>
+              </div>
  
       </div>
     );
