@@ -67,7 +67,7 @@ export default class MainPage extends Component {
      <br></br>
         &nbsp;&nbsp;&nbsp;Front-End : HTML, CSS, JavaScript, React
         <br></br>
-        &nbsp;&nbsp;&nbsp;Etc : Git, Github, Slack, AWS EC2, Netlify
+        &nbsp;&nbsp;&nbsp;Etc : Git, Github, Slack, AWS EC2, Netlify, GPT3, Chatbot
         <br></br><br></br>
  &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://velog.io/@shlog'>블로그 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://github.com/hope69034'>깃허브 : github</a><br></br>
