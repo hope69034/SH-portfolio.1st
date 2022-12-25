@@ -57,8 +57,8 @@ export default class MainPage extends Component {
     };
     return (
       <div >
-        <h2 style={{ textAlign:'center',color:'#01557d'  }}> Welcome to SHworld</h2>
-        
+        <h2 style={{ textAlign:'center',color:'#01557d'  }}>  The Fearless Developer Sehyoung</h2>
+       
    
  &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://velog.io/@shlog'>블로그 : velog</a><br></br>
 &nbsp;&nbsp;&nbsp;<a style={{textDecoration: 'none'}} target="_blank" href='https://github.com/hope69034'>깃허브 : github</a><br></br>
